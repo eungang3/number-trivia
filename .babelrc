@@ -1,0 +1,13 @@
+{
+    // preset은 코드를 변형하는 용도의 플러그인 모음 
+    "presets": [
+        // dev-dependency인 babel-preset-env를 말함. 
+        ["env", {
+            "targets": [
+                // 최근 브라우저 버전 5개에서 작동할 수 있게 ES6 코드 바꿔줌.
+                "last 5 versions",
+                "ie >= 8"
+            ]
+        }]
+    ]
+}
